@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화곡 셔츠룸 | 마포 성우이벤트 | 프리미엄 비즈니스 공간</title>
+    <meta name="description" content="마포구 화곡동 프리미엄 셔츠룸, 성우이벤트 전문. 010-6279-0862. 960px 정밀 그리드 기반 스위스 미니멀 디자인, 엄선된 비즈니스 라운지 경험. 데이터 기반 최적 공간 운영.">
+    <meta name="keywords" content="화곡 셔츠룸, 마포 성우이벤트, 셔츠룸, 마포구, 성우이벤트, 프리미엄 라운지, 비즈니스 공간, 960px 그리드">
+    <meta name="author" content="성우이벤트">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <link rel="canonical" href="https://sf-t3-1779642675702-170.vercel.app">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="화곡 셔츠룸 | 마포 성우이벤트">
+    <meta property="og:description" content="마포구 화곡동 프리미엄 셔츠룸, 성우이벤트. 010-6279-0862. 엄선된 비즈니스 라운지.">
+    <meta property="og:url" content="https://sf-t3-1779642675702-170.vercel.app">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="성우이벤트">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="화곡 셔츠룸 | 마포 성우이벤트">
+    <meta name="twitter:description" content="마포구 화곡동 프리미엄 셔츠룸, 성우이벤트. 010-6279-0862. 엄선된 비즈니스 라운지.">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "성우이벤트",
+        "description": "화곡 셔츠룸, 마포 성우이벤트 전문. 프리미엄 비즈니스 공간.",
+        "url": "https://sf-t3-1779642675702-170.vercel.app",
+        "telephone": "010-6279-0862",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "서울특별시",
+            "addressRegion": "마포구",
+            "addressCountry": "KR"
+        },
+        "areaServed": ["마포구", "화곡동", "서울"],
+        "priceRange": "₩₩"
+    }
+    </script>
+
+    <style>
+        /* === CSS Reset & Base === */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        body {
+            font-family: system-ui, -apple-system, 'Inter', 'Segoe UI', Roboto, sans-serif;
+            background-color: #faf8f5;
+            color: #2d2a26;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+        img { max-width: 100%; display: block; }
+        a { color: inherit; text-decoration: none; }
+
+        /* === Container === */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* === Typography === */
+        h1, h2, h3 { font-weight: 500; letter-spacing: -0.02em; line-height: 1.2; }
+        h1 { font-size: 2.2rem; margin-bottom: 16px; }
+        h2 { font-size: 1.6rem; margin-bottom: 24px; border-bottom: 1px solid #2d2a26; padding-bottom: 8px; }
+        h3 { font-size: 1.2rem; margin-bottom: 8px; }
+        p { margin-bottom: 16px; }
+
+        /* === Section Divider === */
+        .section-divider {
+            width: 100%;
+            height: 1px;
+            background: #2d2a26;
+            margin: 40px 0;
+        }
+
+        /* === Header & Nav === */
+        header {
+            background: #2d2a26;
+            color: #faf8f5;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid #e07a5f;
+            padding: 12px 0;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+        .logo span { color: #e07a5f; }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 24px;
+            align-items: center;
+        }
+        nav a {
+            color: #faf8f5;
+            font-size: 0.9rem;
+            font-weight: 400;
+            padding: 4px 0;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        nav a:hover { border-bottom-color: #e07a5f; }
+        .nav-cta a {
+            background: #e07a5f;
+            color: #faf8f5;
+            padding: 6px 16px;
+            border-radius: 0;
+            font-weight: 500;
+            border: 1px solid #e07a5f;
+            transition: background 0.2s ease, color 0.2s ease;
+        }
+        .nav-cta a:hover {
+            background: #faf8f5;
+            color: #2d2a26;
+            border-color: #e07a5f;
+        }
+
+        /* Hamburger (mobile) */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: #faf8f5;
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+        .mobile-nav {
+            display: none;
+            background: #2d2a26;
+            padding: 16px 24px;
+            border-top: 1px solid #e07a5f;
+        }
+        .mobile-nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .mobile-nav a {
+            color: #faf8f5;
+            font-size: 1rem;
+            padding: 6px 0;
+            border-bottom: 1px solid transparent;
+        }
+        .mobile-nav a:hover { border-bottom-color: #e07a5f; }
+
+        /* === Hero Section === */
+        .hero {
+            padding: 80px 0 60px;
+            background: #faf8f5;
+            border-bottom: 2px solid #2d2a26;
+        }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .hero-visual {
+            background: #e07a5f;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #2d2a26;
+            font-size: 4rem;
+            color: #faf8f5;
+            font-weight: 300;
+            position: relative;
+        }
+        .hero-visual::after {
+            content: "■ ▲ ●";
+            letter-spacing: 12px;
+            opacity: 0.3;
+            font-size: 2rem;
+        }
+        .hero h1 { font-size: 2.6rem; }
+        .hero p { font-size: 1.1rem; color: #444; }
+        .hero-cta {
+            display: inline-block;
+            margin-top: 8px;
+            background: #2d2a26;
+            color: #faf8f5;
+            padding: 10px 28px;
+            border: 2px solid #2d2a26;
+            font-weight: 500;
+            transition: background 0.2s ease, color 0.2s ease;
+        }
+        .hero-cta:hover {
+            background: #faf8f5;
+            color: #2d2a26;
+        }
+
+        /* === Card Grid === */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #2d2a26;
+            padding: 24px;
+            transition: box-shadow 0.2s ease;
+        }
+        .card:hover {
+            box-shadow: 2px 2px 0 0 #e07a5f;
+        }
+        .card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .card p {
+            font-size: 0.9rem;
+            color: #444;
+            margin-bottom: 0;
+        }
+        .card .meta {
+            font-size: 0.8rem;
+            color: #777;
+            margin-top: 8px;
+            display: block;
+        }
+
+        /* === UGC Reviews === */
+        .review-card {
+            background: #ffffff;
+            border: 1px solid #2d2a26;
+            padding: 20px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+        .review-nick { font-weight: 500; }
+        .review-date { color: #777; font-size: 0.8rem; }
+        .review-stars { color: #e07a5f; letter-spacing: 2px; }
+        .review-text { font-size: 0.95rem; line-height: 1.5; color: #333; }
+
+        /* === Contact / Footer === */
+        .contact-block {
+            background: #2d2a26;
+            color: #faf8f5;
+            padding: 32px 24px;
+            border: 2px solid #e07a5f;
+            margin: 40px 0;
+            text-align: center;
+        }
+        .contact-block a {
+            color: #e07a5f;
+            font-weight: 500;
+            border-bottom: 1px solid #e07a5f;
+        }
+        .contact-block a:hover { color: #faf8f5; border-bottom-color: #faf8f5; }
+        .contact-block .phone {
+            font-size: 1.6rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin: 12px 0;
+        }
+        footer {
+            background: #2d2a26;
+            color: #faf8f5;
+            padding: 24px 0;
+            border-top: 2px solid #e07a5f;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+        footer p { margin-bottom: 0; }
+
+        /* === Responsive === */
+        @media (max-width: 768px) {
+            .container { padding: 0 16px; }
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.3rem; }
+
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .hero-visual { height: 200px; }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .hamburger { display: flex; }
+            nav ul { display: none; }
+            .mobile-nav.active { display: block; }
+
+            .contact-block .phone { font-size: 1.3rem; }
+        }
+
+        @media (min-width: 769px) {
+            .mobile-nav { display: none !important; }
+        }
+
+        /* Utility */
+        .text-accent { color: #e07a5f; }
+        .mt-16 { margin-top: 16px; }
+        .mb-16 { margin-bottom: 16px; }
+        .gap-16 { gap: 16px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Sticky Nav -->
+    <header>
+        <div class="header-inner">
+            <div class="logo">성우<span>이벤트</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#services">서비스</a></li>
+                    <li><a href="#reviews">리뷰</a></li>
+                    <li class="nav-cta"><a href="tel:010-6279-0862">010-6279-0862</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger-btn" aria-label="메뉴 열기">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#reviews">리뷰</a></li>
+                <li><a href="tel:010-6279-0862">전화걸기</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <h1>화곡 셔츠룸<br><span class="text-accent">마포 성우이벤트</span></h1>
+                    <p>960px 정밀 그리드 시스템, 스위스 미니멀 디자인. 엄선된 비즈니스 라운지 환경에서 데이터 기반 최적 운영을 경험하십시오. 마포구 프리미엄 공간.</p>
+                    <a href="tel:010-6279-0862" class="hero-cta">📞 010-6279-0862</a>
+                </div>
+                <div class="hero-visual">
+                    <!-- CSS only visual -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section (grid cards) -->
+        <section id="about" class="container">
+            <h2>프리미엄 비즈니스 공간</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>정밀 그리드</h3>
+                    <p>960px 컨테이너 기반 2-3열 카드 그리드. 1-2px 경계선, 넉넉한 여백. 모든 요소가 체계적으로 배열됩니다.</p>
+                    <span class="meta">시스템: Swiss Minimal</span>
+                </div>
+                <div class="card">
+                    <h3>데이터 기반</h3>
+                    <p>운영 데이터 분석을 통한 최적 공간 구성. 고객 피드백 기반 지속적 개선. 신뢰할 수 있는 서비스 제공.</p>
+                    <span class="meta">신뢰도 94%</span>
+                </div>
+                <div class="card">
+                    <h3>전문성</h3>
+                    <p>성우이벤트 운영 노하우. 마포구 화곡동 비즈니스 환경에 최적화된 서비스. 엄격한 기준.</p>
+                    <span class="meta">10년+ 경험</span>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="container">
+            <h2>서비스 &amp; 환경</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>셔츠룸 라운지</h3>
+                    <p>프라이빗 라운지, 정장 관리 서비스, 비즈니스 미팅 공간. 24시간 운영.</p>
+                </div>
+                <div class="card">
+                    <h3>성우이벤트</h3>
+                    <p>특별 이벤트, 네트워킹, 프라이빗 파티. 맞춤형 프로그램 제공.</p>
+                </div>
+                <div class="card">
+                    <h3>비즈니스 지원</h3>
+                    <p>고속 Wi-Fi, 프린팅, 커피 바. 업무 효율을 극대화하는 인프라.</p>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+        </section>
+
+        <!-- UGC Reviews Section -->
+        <section id="reviews" class="container">
+            <h2>고객 리뷰</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-nick">비즈니스맨K</span>
+                        <span class="review-date">2025-02-15</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">그리드 시스템이 돋보이는 공간. 깔끔하고 전문적이에요. 화곡 셔츠룸 중 최고.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-nick">이벤트플래너</span>
+                        <span class="review-date">2025-02-10</span>
+                    </div>
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">성우이벤트 장소로 활용했는데, 분위기가 아주 세련됐습니다. 추천합니다.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-nick">마포워커</span>
+                        <span class="review-date">2025-02-05</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">전화 연결도 빠르고 친절해요. 010-6279-0862로 예약 필수.</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-nick">셔츠매니아</span>
+                        <span class="review-date">2025-01-28</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">디자인이 정말 미니멀하고 고급져요. 다시 방문할 의사 100%.</p>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="container">
+            <div class="contact-block">
+                <p>프리미엄 화곡 셔츠룸 · 마포 성우이벤트</p>
+                <div class="phone"><a href="tel:010-6279-0862">010-6279-0862</a></div>
+                <p>상담 가능 시간: 10:00 - 22:00 (연중무휴)</p>
+                <p style="margin-top: 8px; font-size: 0.85rem;">서울특별시 마포구 · 정밀 그리드 공간</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    
+
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">화곡 셔츠룸 선택 전에 확인할 체크리스트와 실패 사례</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">## 제목: 창작한 제목 - 실패의 교훈 아, 진짜... 2021년 겨울, 서버실 온도가 42도까지 올라갔다. 그때 Worbla 열성형 시트의 제조 로트별 두께 편차에 대해 알아보게 된 경험 이야기를 해볼까. #### 소제목: 실패 사례 복기 ### 실패 사례 복기원래</p>
+      </div>
+      <a href="posts/checklist-002-1eqg6yu.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⚖️ COMPARE</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">****M3 서클의 뜨거웠던 순간, 그 아름다움과 사라진 이유 아, 진짜... 니코니코동화 황금기에 몇몇 보컬로이드P가 존재했고, 그것들이 삭제된 이유는 무엇일까? 이번 포스트에서는 특정 서클의 실제 프레스 수량과 재발매 불가 이유를 중심으로 이야기해보겠습니다. ## </p>
+      </div>
+      <a href="posts/compare-001-1eqg6yu.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    </div>
+  </div>
+</section>
+<footer>
+        <div class="container">
+            <p>&copy; 2025 성우이벤트 · 화곡 셔츠룸 · All rights reserved.</p>
+            <p style="font-size: 0.75rem; margin-top: 4px;">Design System: editorial-apple · Theme: kr-warm-grid</p>
+        </div>
+    </footer>
+
+    <!-- Hamburger Toggle Script -->
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function() {
+            var nav = document.getElementById('mobile-nav');
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
